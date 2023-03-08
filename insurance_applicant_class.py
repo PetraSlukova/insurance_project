@@ -6,9 +6,6 @@ class Insurance_applicant():
         self.phone_number = input("Zadejte telefonní číslo:\n")
         self.age = int(input("Zadejte věk:\n"))
 
-    # def phone_checker(self):
-    #     self.phone_number.strip()
-
     def create_new_applicant(self):
         new_user = {
             "first_name": self.first_name,
